@@ -1,5 +1,9 @@
 public class FizzBuzz {
     public String convert(int num) {
-        return "fizz";
+        if (num == 3) {
+            return "fizz";
+        } else {
+            return "buzz";
+        }
     }
 }
